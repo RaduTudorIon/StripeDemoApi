@@ -64,5 +64,4 @@ public class PaymentsController : ControllerBase
             return BadRequest(new { error = new { message = e.Message } });
         }
     }
-
 }
